@@ -27,7 +27,23 @@ body{
 
 /* Media Queries SM */
 @media (max-width:768px){
-    #intro{
+    #intro, #equipo{
         width: 90% !important;
+     }
+     .servicio-fila {
+        width: 100% !important;
+        text-align: center;
+     }
+
+     #equipo p{
+        display:none;
+     }
+}
+
+/* Media Queries EXTRA-SM */
+@media (max-width:576px){
+    .icono-wrap{
+        flex-wrap: wrap;
+        justify-content: center !important;
     }
 }
