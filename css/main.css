@@ -50,6 +50,19 @@ body{
 
 /* Media Queries Pantalla Ancha */
 
+@media(max-width: 1200px){
+    #local{
+        flex-wrap: wrap;
+        padding-top: 30px;
+    }
+
+    .wrapper{
+        width:90%;
+        margin: auto;
+        padding-top: 50px;
+    }
+}
+
 /* Media Queries SM */
 @media (max-width:768px){
     #intro, #equipo{
