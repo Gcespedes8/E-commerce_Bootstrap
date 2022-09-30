@@ -25,6 +25,31 @@ body{
     max-height:39rem;
 }
 
+
+/* Map*/
+
+.mapa{
+    background:url(../img/mapa.PNG);
+    width: 100%;
+    height: 500px;
+}
+
+#local{
+    background: #f3f3f3;
+    padding-bottom: 300px;
+    display:flex;
+    justify-content: center;
+}
+
+.wrapper{
+    width:50%;
+    margin-left: 100px;
+    padding-top: 150px;
+}
+
+
+/* Media Queries Pantalla Ancha */
+
 /* Media Queries SM */
 @media (max-width:768px){
     #intro, #equipo{
